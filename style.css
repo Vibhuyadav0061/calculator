@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+     background: rgb(0,0,0);
+     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(148,187,233,1) 99%);
+}
+.container{
+    width: 280px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px  auto ;
+    border: 0px solid rgb(135, 158, 208);
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px rgb(135, 158, 208);
+    background-color: rgb(100, 100, 100);
+}
+.upper input {
+    width: 95%;
+    height: 65px;
+    /* border-radius: 40px; */
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    margin-bottom: 15px ;
+    margin-top: 7px;
+    /* box-shadow: 2px 2px 2px white; */
+    margin-left: 6px;
+    font-size: 25px;
+}
+.middel{
+    height: 50px;
+    width: 100%;
+}
+.middel button {
+    height: 40px;
+    width: 40%;
+    margin:  auto;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-color: rgb(134, 26, 26);
+    color: white;
+    font-size: 20px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+}
+
+.down{
+    display: flex;
+    justify-content: space-around;
+    height: 240px;
+    width: 100%;
+    
+}
+.left{
+    margin: 10px auto;
+    width: 80%;
+}
+.first{
+    margin: 20px;
+}
+.second{
+    margin: 20px;
+}
+.third{
+   margin: 20px;
+    
+}
+.fourth{
+    margin: 20px;
+    margin-left: 70px;
+}
+.num{ 
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 1.2px 1.2px 1.2px  black;
+
+    /* vertical-align: middle; */
+     margin-left: 10px;
+    /* margin-top: 12px;  */
+    
+}
+.right{
+    margin: 10px auto;
+    width: 20%;
+}
+.right div{
+    margin: 10px auto;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    box-shadow: 2px 2px 2px  black;
+
+}
+.equal{
+    height: 40px;
+    width: 80%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px  black;
+    border-radius: 20px;
+    margin:5px auto;
+}
+.equal button{
+    background-color: rgb(134, 26, 26);
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px  black;
+    border-radius: 20px;
+    font-size: 30px;
+}
+.item:hover{
+    cursor: pointer;
+}
+
